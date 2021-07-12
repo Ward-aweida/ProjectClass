@@ -20,9 +20,9 @@ public class Project {
 
 
     public String elevatorPitch(String name, String description) {
-        this.name = name;
-        this.description = description;
-        return elevatorPitch(name, description);
+        this.name=name;
+        this.description=description;
+       return getName() +""+getDescription();
     }
 
     public String getName() {
