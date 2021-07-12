@@ -19,9 +19,10 @@ public class Project {
     }
 
 
-    public void elevatorPitch(String name, String description) {
+    public String elevatorPitch(String name, String description) {
         this.name = name;
         this.description = description;
+        return elevatorPitch(name, description);
     }
 
     public String getName() {
@@ -39,6 +40,6 @@ public class Project {
 
     public String setDescription(String description) {
         this.description = description;
-        return  description;
+        return description;
     }
 }
