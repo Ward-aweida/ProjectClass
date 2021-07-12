@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText editText = findViewById(R.id.Name);
+        EditText editText = findViewById(R.id.EditName);
         Print = findViewById(R.id.Print);
         Print.setOnClickListener(new View.OnClickListener() {
             @Override
